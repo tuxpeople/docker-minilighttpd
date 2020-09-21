@@ -8,7 +8,8 @@ RUN apk update && \
     apk add --no-cache \
     lighttpd \
     curl && \
-    rm -rf /var/cache/apk/*
+    rm -rf /var/cache/apk/* && \
+    mkdir /data
 
 # Copy lighttpd config files.
 COPY *.sh *.c* /config/
