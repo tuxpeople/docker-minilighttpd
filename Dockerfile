@@ -3,6 +3,7 @@ LABEL maintainer="Thomas Deutsch <thomas@tuxpeople.org>" \
       version="1.0.0"
 
 # Install packages
+# hadolint ignore=DL3018
 RUN apk update && \
     apk add --no-cache \
     lighttpd \
