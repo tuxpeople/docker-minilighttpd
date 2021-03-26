@@ -1,4 +1,4 @@
-FROM alpine:3.13.2
+FROM alpine:3.13.3
 LABEL maintainer="Thomas Deutsch <thomas@tuxpeople.org>" \
       version="1.0.0"
 
