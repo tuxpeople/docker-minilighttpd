@@ -17,17 +17,19 @@ Just a small little lighthttp pod for my internal use.
   ```amd64```, ```armv7```, ```armv6``` and ```arm64```
 
 ## Image tags
-- ```latest``` gets automatically built on every push to master and also via a weekly cron job
+- ```latest``` always refers to the latest tagged release.
+- There are tags for major, minor and patchreleases (eg. ```1.0.0```, ```1.0```, ```1``` )
+- ```nightly``` gets automatically built a daily cron job
+- ```devel``` gets automatically built on every push and represents the latest version of the repo
 
 ## Usage
 
 ```sh
-docker pull tdeutsch/minilighttpd:<tag>
+docker pull tdeutsch/debugcontainer:<tag>
 ```
 
 or
 
 ```sh
-docker pull quay.io/tdeutsch/minilighttpd:<tag>
+docker pull ghcr.io/tuxpeople/debugcontainer:<tag>
 ```
-
