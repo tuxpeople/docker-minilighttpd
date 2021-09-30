@@ -1,6 +1,4 @@
 FROM alpine:3.14.2
-LABEL maintainer="Thomas Deutsch <thomas@tuxpeople.org>" \
-      version="1.0.0"
 
 # Install packages
 # hadolint ignore=DL3018
