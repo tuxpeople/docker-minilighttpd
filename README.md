@@ -5,6 +5,7 @@
 ![Docker Stars Badge](https://img.shields.io/docker/stars/tdeutsch/minilighttpd)
 ![Docker Size Badge](https://img.shields.io/docker/image-size/tdeutsch/minilighttpd)
 
+    Caution: No more quay.io!
 ## Quick reference
 
 Just a small little lighthttp pod for my internal use. 
